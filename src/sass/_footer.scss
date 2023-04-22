@@ -1,0 +1,60 @@
+.footer {
+    background-color: #0F3F3C;
+    &__content{
+        display: flex;
+        justify-content: space-between;
+       
+
+
+       color: #fff;
+    padding: 48px 0; 
+    }
+    
+
+    &__text{
+        margin-top: 8px;
+        color: #fff;
+    }
+}
+.social__list {
+    display: flex;
+    gap:8px;
+    
+    & a {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+       
+
+
+        width: 32px;
+        height: 32px;
+        border-radius: 50%
+        
+       
+    }
+    & a:hover{
+    background-color: #fff;
+      & svg {
+            fill:#F07F2E;
+        }
+    }
+
+
+
+    & svg {
+        fill: #fff;
+        width: 16px;
+        height: 16px;
+        
+        
+    }
+    
+    
+}
+.social_text{
+    text-align: end;
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+}
